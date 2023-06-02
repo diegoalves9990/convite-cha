@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: linear-gradient(pink, rgba(0, 0, 0, 0.651));
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0px;
+}
+
+#infoLogin{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100vw;
+    height: 30vh;
+}
+
+#nomeLogin{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.185);
+    border: none;
+    margin: 5px;
+}
+
+#nomeSenha{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.185);
+    border: none;
+    margin: 5px;
+}
+
+#criarUsuario{
+    text-decoration: none;
+    color: white;
+}
